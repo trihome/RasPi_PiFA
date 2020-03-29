@@ -28,7 +28,10 @@ GPIO pins can be freely selected.
   - [J3 and J5: B4B-XH-A(LF)(SN)](http://akizukidenshi.com/catalog/g/gC-12249/)
   - [Raspberry Pi Pins: QI(2550)connectors](http://akizukidenshi.com/catalog/g/gC-12150/)
 - Supply 24V power to J7.
-- Selectable Sink(NPN) / Source(PNP) : J1, J4
+- Selectable Sink(NPN) / Source(PNP) : J1(Input), J4(Output)
+  - U6: Transistor array, you have to choose.
+    - J4 = [Sink(NPN)](http://akizukidenshi.com/catalog/g/gI-10669/)
+    - J4 = [Source(PNP)](http://akizukidenshi.com/catalog/g/gI-10957/)
 - I2C-bus voltage-level translator (3.3 to 5 V)
   - [U1: AE-PCA9306](http://akizukidenshi.com/catalog/g/gM-05452/)
   - I2C Output connector
