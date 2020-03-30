@@ -43,6 +43,7 @@ _autosave-*
 #*.gdp
 *.xlsx
 *.bat
+*_.png
 *.step
 
 # Ignore Folders
