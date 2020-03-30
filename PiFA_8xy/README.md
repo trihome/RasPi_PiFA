@@ -14,7 +14,7 @@ https://github.com/trihome/KiCad_MyLibrary
 ![pifa8xy00](./img/PiFA_8xy_00.jpg "3D")
 ![pifa8xy01](./img/PiFA_8xy_01.jpg "Usage")
 
-##Spec
+## Spec
 
 - 4 isolated inputs and 4 isolated outputs.
   - J3(Y) is Output, and J5(X) is Input.
@@ -37,9 +37,9 @@ https://github.com/trihome/KiCad_MyLibrary
   - [U4 : DS1307+](http://akizukidenshi.com/catalog/g/gI-06949/)
   - [BT1: CH243-2032LF](http://akizukidenshi.com/catalog/g/gP-02019/) and CR2032
 
-##Example of use
+## Example of use
 
-###Terminal block
+### Terminal block
 
 - [Terminal block](https://www.togi.co.jp/product/interface/1072/)
 - [Cables](https://www.togi.co.jp/product/harness-cable/2661/)
@@ -47,7 +47,7 @@ https://github.com/trihome/KiCad_MyLibrary
 ![pifa8xy03](./img/PiFA_8xy_03.jpg "Usage")
 ![pifa8xy04](./img/PiFA_8xy_04.jpg "Usage")
 
-###Stack
+### Stack
 If you need more I/O ports, you can increase them by stacking boards.
 ![pifa8xy02](./img/PiFA_8xy_02.jpg "Usage")
 - The board sandwiched in the middle is [Grove Base Hat for Raspberry Pi](http://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi/)
