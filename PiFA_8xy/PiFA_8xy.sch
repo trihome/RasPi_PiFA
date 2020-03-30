@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PiFA_8xy-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1338,7 +1337,7 @@ P 13800 4600
 AR Path="/5B30E8C7/5B395B4C" Ref="BT?"  Part="1" 
 AR Path="/5B395B4C" Ref="BT1"  Part="1" 
 F 0 "BT1" V 14055 4650 50  0000 C CNN
-F 1 "CH74-2032LF" V 13964 4650 50  0000 C CNN
+F 1 "CH243-2032LF" V 13964 4650 50  0000 C CNN
 F 2 "_my_akizuki:BatteryHolder_Keystone_CH74-2032LF" V 13800 4660 50  0001 C CNN
 F 3 "~" V 13800 4660 50  0001 C CNN
 	1    13800 4600
@@ -1548,21 +1547,17 @@ $EndComp
 Wire Wire Line
 	7900 2300 7900 2500
 Wire Wire Line
-	7900 2500 7700 2500
+	7900 2500 7800 2500
 Wire Wire Line
 	8500 2600 8200 2600
 Wire Wire Line
 	8200 2600 8200 2800
 Wire Wire Line
-	8200 2800 7400 2800
-Wire Wire Line
-	7300 2600 7600 2600
+	8200 2800 7500 2800
 Wire Wire Line
 	8000 2600 8000 2400
 Wire Wire Line
 	8000 2400 8500 2400
-Wire Wire Line
-	7300 2700 7500 2700
 Wire Wire Line
 	8100 2700 8100 2500
 Wire Wire Line
@@ -1697,35 +1692,35 @@ Wire Wire Line
 $Comp
 L Device:R_Network04 RN4
 U 1 1 5B5CA5A7
-P 7600 3100
-F 0 "RN4" H 7780 3146 50  0000 L CNN
-F 1 "10k" H 7780 3055 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP5" V 7875 3100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7600 3100 50  0001 C CNN
-	1    7600 3100
+P 7700 3100
+F 0 "RN4" H 7880 3146 50  0000 L CNN
+F 1 "10k" H 7880 3055 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 7975 3100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7700 3100 50  0001 C CNN
+	1    7700 3100
 	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5B5CA5AE
-P 7400 3500
-F 0 "#PWR01" H 7400 3250 50  0001 C CNN
-F 1 "GND" H 7405 3327 50  0000 C CNN
-F 2 "" H 7400 3500 50  0001 C CNN
-F 3 "" H 7400 3500 50  0001 C CNN
-	1    7400 3500
+P 7500 3500
+F 0 "#PWR01" H 7500 3250 50  0001 C CNN
+F 1 "GND" H 7505 3327 50  0000 C CNN
+F 2 "" H 7500 3500 50  0001 C CNN
+F 3 "" H 7500 3500 50  0001 C CNN
+	1    7500 3500
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 3300 7400 3500
+	7500 3300 7500 3500
 Wire Wire Line
-	7700 2500 7700 2900
+	7800 2500 7800 2900
 Wire Wire Line
-	7600 2600 7600 2900
+	7700 2600 7700 2900
 Wire Wire Line
-	7500 2700 7500 2900
+	7600 2700 7600 2900
 Wire Wire Line
-	7400 2800 7400 2900
+	7500 2800 7500 2900
 Connection ~ 5700 1900
 Wire Wire Line
 	9500 2300 10500 2300
@@ -1735,18 +1730,6 @@ Wire Wire Line
 	9500 2500 10500 2500
 Wire Wire Line
 	9500 2600 10500 2600
-Connection ~ 7400 2800
-Wire Wire Line
-	7400 2800 7300 2800
-Connection ~ 7500 2700
-Wire Wire Line
-	7500 2700 8100 2700
-Connection ~ 7600 2600
-Wire Wire Line
-	7600 2600 8000 2600
-Connection ~ 7700 2500
-Wire Wire Line
-	7700 2500 7300 2500
 $Comp
 L Device:Polyfuse F1
 U 1 1 5B569BF9
@@ -2050,7 +2033,7 @@ F 3 "~" H 4700 10700 50  0001 C CNN
 $EndComp
 Connection ~ 5250 7100
 Connection ~ 5050 7400
-Text Notes 2700 5700 0    100  ~ 0
+Text Notes 2800 5600 0    100  ~ 0
 Digital Output (Isolated)
 Text Notes 2900 850  0    100  ~ 0
 Digital Input (Isolated)
@@ -2203,7 +2186,7 @@ F 3 "~" H 4700 10900 50  0001 C CNN
 	1    4700 10900
 	1    0    0    -1  
 $EndComp
-Text Notes 7350 3950 0    50   ~ 0
+Text Notes 7450 3950 0    50   ~ 0
 RasPi: 1-10k\nJETSON: 100k-∞
 Text Notes 6800 9550 0    50   ~ 0
 24V PilotLamp
@@ -2400,4 +2383,26 @@ F 3 "~" H 10150 2000 50  0001 C CNN
 	1    10150 2000
 	0    -1   -1   0   
 $EndComp
+Text Notes 10950 2050 0    50   ~ 0
+to\nRaspberry Pi\nConnector
+Text Notes 6850 3250 0    50   ~ 0
+to\nRaspberry Pi\nConnector
+Connection ~ 7500 2800
+Connection ~ 7600 2700
+Wire Wire Line
+	7600 2700 8100 2700
+Connection ~ 7700 2600
+Wire Wire Line
+	7700 2600 8000 2600
+Connection ~ 7800 2500
+Wire Wire Line
+	7300 2600 7700 2600
+Wire Wire Line
+	7300 2700 7600 2700
+Wire Wire Line
+	7300 2800 7500 2800
+Wire Wire Line
+	7300 2500 7800 2500
+Text Notes 3450 7450 0    50   ~ 0
+U6 Select:\n-NPN(Sink) Mode:   TBD62083APG\n-PNP(Source) Mode: TBD62783APG
 $EndSCHEMATC
