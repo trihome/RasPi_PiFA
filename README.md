@@ -4,12 +4,14 @@ This board will make it possible to connect equipment used at the factory  (ex: 
 It can isolate connected equipments from Raspberry Pi.
 
 
-**Attention**
+**Note**
+
 Please import this library before using this repository.
 https://github.com/trihome/KiCad_MyLibrary
 
 
-**Manufacturing process**
+**How to make**
+
 [Manual (Japanese only)](./doc/README_pcb.jp.md)
 
 ## [PiFA 8xy](./PiFA_8xy/)
