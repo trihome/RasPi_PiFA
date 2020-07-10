@@ -4,9 +4,9 @@ A prototyping board "HAT".
 
 GPIO pins can be freely selected.
 
-[Schematic](./PiFA_8xy/img/PiFA_8xy.pdf)
+[Schematic](./img/PiFA_8xy.pdf)
 
-**Attention**
+**Note**
 
 Please import this library before using this repository.
 https://github.com/trihome/KiCad_MyLibrary
