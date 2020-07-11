@@ -26,3 +26,6 @@ GPIO pins can be freely selected.
 - I2C-bus voltage-level translator (3.3 to 5 V)
 - RTC
 
+## License
+
+This is under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
